@@ -1,0 +1,39 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block load_css %}
+
+
+{% block title %}INFSCI2470 - Fair Recommender System{% endblock %}
+
+
+<style>
+    .tooltip {
+        position: absolute;
+        padding: 10px;
+        background-color: white;
+        border: 1px solid black;
+        opacity: 0;
+        pointer-events: none;
+    }
+
+    .ui-slider-range {
+        background-color: #198754;
+    }
+</style>
+{% endblock %}
+
+{% block load_js %}
+    <script src="{% static "js/example.js" %}"></script>
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+{% endblock %}
+
+{% block content %}
+    <!-- Page content-->
+    
+{% endblock %}
+
+
+
+
+
